@@ -10,7 +10,7 @@ e instalar o selenium através do terminal, com o comando:
 ```
 pip3 install selenium
 ```
-<br><br>
+<br>
 
 ## Como inicializar os programas dos desafios
 

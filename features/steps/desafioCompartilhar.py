@@ -49,7 +49,7 @@ if "Linux" in platform.platform():
     driver = helper.searcher('src/chromedriver')
 
 else:
-    path_windows = os.path.dirname(os.path.abspath(file)) + '\ChromedriverW\chromedriver.exe'
+    path_windows = os.path.dirname(os.path.abspath(__file__)) + '\ChromedriverW\chromedriver.exe'
     driver = helper.searcher(path_windows)
 
 

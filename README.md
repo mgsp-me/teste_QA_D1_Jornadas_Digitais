@@ -5,10 +5,10 @@ em seu teste para QA junior <br><br>
 ## Sobre a necessidade de programas de terceiros
 Os códigos funcionam tanto nos sistemas operacionais do Linux - nativamente - quanto no windows, só havendo a necessidade de instalar absolutamente todos os arquivos que estão contidos nesse repositório. Certifique-se de que seu google chrome está na versão mais atualizada para seu sistema operacional. O
 usuário deverá ter [python](https://www.python.org/downloads/release/python-3101/) instalado no computador
-e instalar o selenium através do terminal, com o comando:
+e instalar as dependências através do terminal aberto em "src", com o comando:
 
 ```
-pip3 install selenium
+pip install -r requirements.txt
 ```
 <br>
 
@@ -27,7 +27,6 @@ python subscribers.py
 python desafioCompartilhar.py
 ``` 
 
-## Funções utilizadas pelos dois programas
 
 
 
